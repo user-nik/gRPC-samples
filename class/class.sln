@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client", "client\client.csproj", "{73D795D0-E962-40FB-ACF9-7937B6A994D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "server", "server\server.csproj", "{14B1066D-78D1-4D92-97E3-E7937CF2B990}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proto", "proto", "{5259FEEF-4E7C-4391-81A7-F66A9637A8B3}"
+	ProjectSection(SolutionItems) = preProject
+		dummy.proto = dummy.proto
+		greeting.proto = greeting.proto
+		sqrtService.proto = sqrtService.proto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73D795D0-E962-40FB-ACF9-7937B6A994D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D795D0-E962-40FB-ACF9-7937B6A994D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D795D0-E962-40FB-ACF9-7937B6A994D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D795D0-E962-40FB-ACF9-7937B6A994D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B1066D-78D1-4D92-97E3-E7937CF2B990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B1066D-78D1-4D92-97E3-E7937CF2B990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B1066D-78D1-4D92-97E3-E7937CF2B990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B1066D-78D1-4D92-97E3-E7937CF2B990}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E88BAEC-4B95-4146-ACC6-226CB8AC39AE}
+	EndGlobalSection
+EndGlobal
